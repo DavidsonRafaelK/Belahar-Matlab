@@ -1,0 +1,20 @@
+clear   % Untuk clear variabel yang tersimpan di memori
+clc     % Untuk clear console(command window)
+
+% Skalar
+a = 7;
+
+% Vector Baris, Kolom, Matrix
+b = [1 2 3 4 5];
+c = [1; 2; 3; 4; 5];
+d = [1 2; 3 4; 5 6];
+
+% Transpose cara mengubah vektor baris menjadi vektor kolom
+% dengan menggunakan b' dapat mengubah vektor baris menjadi vektor kolom
+
+bt = b';
+ct = c';
+dt = d';
+
+% Penjumlahan Vektor
+dot(b, c')
